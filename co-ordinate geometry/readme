@@ -1,1 +1,21 @@
 ..
+co-ordinate geometry library can be use to calculate following 
+1. Distance between two point
+2. Mid point between two point
+3. Section formula both internally and externally
+4. centroid of triangle
+5. slope of line
+
+variable used
+x1, x2, x3, y1, y2, y3, m, n
+Here x1, x2, x3, y1, y2, y3 are vertices and m & n are ratio for section formula 
+
+function call
+1. for distance formula : distance_between_two_point(x1, x2, y1, y2)
+2. for mid point formula : mid_point(x1, x2, y1, y2)
+3. for internal section formula : internal_section_formula(x1, x2, y1, y2, m, n)
+4. for external section formula : external_section_formula(x1, x2, y1, y2, m, n)
+5. for centroid of triangle : centroid_triangle(x1, x2, x3, y1, y2, y3)
+6. for slope of line : slope_line(x1, x2, y1, y2)
+
+note: import coordinate_geometry_lib for implenemtation
