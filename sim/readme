@@ -1,0 +1,35 @@
+Simple Interest Calculator Library Documentation
+variables
+p = principal
+t = time in year
+r = interest rate
+i = simple interest
+
+functions
+for calculation of simple interest
+                    interest(p,t,r)
+for calculation of interest rate
+                    rate(p,t,i)
+for calculation of time in year
+                    time(p,r,i)
+for calculation of principal or investment
+                    principal(i,r,t)
+for calculation of amount
+                    amount(p,i)
+Output
+siinterest, simple interest output
+sirate, interest rate output
+sitime, time in year output
+siprincipal, principal output
+siamount, amount output
+
+
+Implementation
+for accessing all import all 
+eg: from simple_interest_lib import *
+for accessing interest only
+eg: from simple_interest_lib import interest
+for accessing interest and time
+eg: from simple_interest_lib import interest, time
+
+and so on.....
