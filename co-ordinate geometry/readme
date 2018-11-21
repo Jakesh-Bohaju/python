@@ -19,3 +19,4 @@ function call
 6. for slope of line : slope_line(x1, x2, y1, y2)
 
 note: import coordinate_geometry_lib for implenemtation
+eg: from coordinate_geometry_lib import *
