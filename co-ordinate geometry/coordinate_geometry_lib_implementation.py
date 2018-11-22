@@ -10,7 +10,8 @@ if keys == 1:
     x2 = int(input("x2 : "))
     y1 = int(input("y1 : "))
     y2 = int(input("y2 : "))
-    distance_between_two_point(x1, x2, y1, y2)
+    distance = distance_between_two_point(x1, x2, y1, y2)
+    print("Distance between two point is : ", distance)
 
 elif keys == 2:
     print("Enter x1, x2, y1, y2 co-ordinates.\n")
@@ -18,8 +19,8 @@ elif keys == 2:
     x2 = int(input("x2 : "))
     y1 = int(input("y1 : "))
     y2 = int(input("y2 : "))
-    mid_point(x1, x2, y1, y2)
-
+    midpoint = mid_point(x1, x2, y1, y2)
+    print("Mid point : ", midpoint)
 elif keys == 3:
     internal_external = input("Enter I for Internal section formula and E for External section Formula\n")
     if internal_external == 'I' or internal_external == 'i':
@@ -30,7 +31,8 @@ elif keys == 3:
         y2 = int(input("y2 : "))
         m = int(input("m : "))
         n = int(input("n : "))
-        internal_section_formula(x1, x2, y1, y2, m, n)
+        isf = internal_section_formula(x1, x2, y1, y2, m, n)
+        print("Section Point : ", isf)
     elif internal_external == 'E' or internal_external == 'e':
         print("Enter x1, x2, y1, y2 co-ordinates and ratio m:n.\n")
         x1 = int(input("x1 : "))
@@ -39,7 +41,8 @@ elif keys == 3:
         y2 = int(input("y2 : "))
         m = int(input("m : "))
         n = int(input("n : "))
-        external_section_formula(x1, x2, y1, y2, m, n)
+        esf = external_section_formula(x1, x2, y1, y2, m, n)
+        print("Section Point : ", esf)
     else:
         print("Enter correct option...\n")
 
@@ -51,7 +54,8 @@ elif keys == 4:
     y1 = int(input("y1 : "))
     y2 = int(input("y2 : "))
     y3 = int(input("y3 : "))
-    centroid_triangle(x1, x2, x3, y1, y2, y3)
+    ct = centroid_triangle(x1, x2, x3, y1, y2, y3)
+    print("Centroid is : ", ct)
 
 elif keys == 5:
     print("Enter x1, x2, y1, y2 co-ordinates.\n")
@@ -59,7 +63,8 @@ elif keys == 5:
     x2 = int(input("x2 : "))
     y1 = int(input("y1 : "))
     y2 = int(input("y2 : "))
-    slope_line(x1, x2, y1, y2)
+    sl = slope_line(x1, x2, y1, y2)
+    print("Slope of line : ", sl)
 
 else:
     print("Enter correct option....")
