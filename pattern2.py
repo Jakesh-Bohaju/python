@@ -57,6 +57,10 @@ def patterns(rows):
     for i in range(1, rows + 1):
         print(' ' * counter, '*' * i)
         counter -= 1
+        
+    print("\nAnother way to print third pattern")
+    for i in range(1, rows + 1):
+    print(' ' * (rows - i) + '*' * i)
 
     print("\nFourth pattern")
     counter = 4
