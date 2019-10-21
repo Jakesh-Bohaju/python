@@ -2,4 +2,12 @@ Here you can find python3.x core codes...
 Hope you will learn more and more
 Some quick links from the repository
 - [Decorator implementation](https://github.com/Jakesh-Bohaju/python/blob/master/decorator.ipynb)
-<a href="https://github.com/Jakesh-Bohaju/python/blob/master/decorator.ipynb">jhjh</a>
+- [Basic implementation of custom co-ordinate geometry library](https://github.com/Jakesh-Bohaju/python/tree/master/co-ordinate%20geometry)
+- [Basic implementation of custom simple interest library](https://github.com/Jakesh-Bohaju/python/tree/master/sim)
+- [Monkey Patching](https://github.com/Jakesh-Bohaju/python/blob/master/monkey%20patching.ipynb)
+- [Object oriented programming in Python3](https://github.com/Jakesh-Bohaju/python/blob/master/OOP/OOP%20in%20python%20(Class%20and%20Methods).ipynb)
+- [Abstraction](https://github.com/Jakesh-Bohaju/python/blob/master/OOP/Abstraction.ipynb)
+- [Encapsulation](https://github.com/Jakesh-Bohaju/python/blob/master/OOP/Encapsuation.ipynb)
+- [Polymorphism](https://github.com/Jakesh-Bohaju/python/blob/master/OOP/Polymorphism.ipynb)
+- [Inheritance](https://github.com/Jakesh-Bohaju/python/blob/master/OOP/Inheritance.ipynb)
+- [Overloading and Overriding](https://github.com/Jakesh-Bohaju/python/blob/master/OOP/Overloading%20and%20Overriding.ipynb)
