@@ -1,5 +1,5 @@
 with open('working_in_text_file.txt', 'w') as text_file:
-    text_file.write('This is python class\nBroadway')
+    text_file.write('This is python class')
 
 with open('working_in_text_file.txt', 'r') as reading_text_file:
     for line in reading_text_file:
