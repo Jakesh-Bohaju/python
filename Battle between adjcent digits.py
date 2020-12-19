@@ -20,7 +20,6 @@ total carnage
 
 import time
 
-# Method 1
 input_string = input("Enter a numbers only...\n")
 start_time = time.time()
 count = 0
